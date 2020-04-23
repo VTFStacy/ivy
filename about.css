@@ -1,0 +1,24 @@
+body {
+	font-family: Consolas,monaco,monospace;  
+	letter-spacing: 1em;
+	font-size: 12px;
+
+	}
+
+.content {
+	height:420px;
+}
+
+.photo-wrap {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color:transparent;
+}
+
+.photo img {
+	width:100%;
+	position:absolute;
+}
