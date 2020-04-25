@@ -29,6 +29,17 @@ $(document).ready(function(){
     });
         });
 
+     $(".block2").hover(function(){
+        $(".project-name", this).fadeIn("slow");
+        $(this).css("background-color","rgba(255,255,255,0.3)");
+     $(".block2").mouseleave(function(){
+        $(".project-name", this).fadeOut("slow");
+        $(this).css("background-color","rgba(250,250,250,0.7)");
+    });
+        });
+
+
+
 
 
 

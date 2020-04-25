@@ -1,6 +1,5 @@
 body {
 	font-family: Consolas,monaco,monospace;  
-	letter-spacing: 1em;
 	font-size: 12px;
 
 	}
@@ -21,4 +20,10 @@ body {
 .photo img {
 	width:100%;
 	position:absolute;
+}
+
+.text-wrap {
+	position: absolute;
+	margin-left: 480px;
+	margin-top:50px;
 }
